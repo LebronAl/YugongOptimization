@@ -1,2 +1,4 @@
-configparser==5.0.1
 pandas==0.25.1
+numpy==1.18.1
+tqdm==4.46.0
+jupyter==1.0.0
