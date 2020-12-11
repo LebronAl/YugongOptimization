@@ -8,11 +8,15 @@ Open-Style Practice for Big Data System : intelligent scheduling in cross-region
 
 ## Usage
 ```
-git clone https://github.com/LebronAl/YugongOptimization
-cd YugongOptimization
-mv the-dir-of-data-files/* ./data
-pip3 install -r requirements.txt
-nohup jupyter notebook &
+> git clone https://github.com/LebronAl/YugongOptimization
+> cd YugongOptimization
+> mv the-dir-of-data-files/* ./data
+> pip3 install -r requirements.txt
+
+> nohup python3 yugong.py &
+> tail -f nohup.out
+or
+> nohup jupyter notebook &
 run all cells in jupyter by browser
 ```
 
